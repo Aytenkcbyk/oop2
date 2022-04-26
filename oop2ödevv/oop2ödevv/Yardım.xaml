@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="oop2ödevv.Yardım">
+    <ContentPage.Content>
+        <ScrollView HeightRequest="3000">
+
+        <StackLayout>
+            <StackLayout>
+                <Label Text="BİLET İŞLEMLERİM"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       Margin="7">
+
+
+                </Label>
+                <StackLayout>
+                    <Label Text="Nasıl bilet satın alabilirim?"
+                           TextColor="DarkSlateGray"
+                           FontSize="Subtitle"
+                           FontAttributes="Bold"
+                           Margin="5">
+
+
+                    </Label>
+                    <StackLayout Orientation="Horizontal">
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="   www.ido.com.tr"
+                                          TextColor="Blue"
+                                          TextDecorations="Underline">
+
+
+                                    </Span>
+
+                                </FormattedString>
+
+                            </Label.FormattedText>
+
+
+                        </Label>
+                        <Label Text="adresimizden kredi kartınızı kullanarak,"
+                               TextColor="Black"
+                               Margin="3">
+
+
+                        </Label>
+                        
+
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="   7/24 ulaşabileceğiniz"
+                               TextColor="black">
+
+
+                        </Label>
+                            <Label>
+                            
+                               <Label.FormattedText>
+                                  <FormattedString>
+                                    <Span Text="0850222446"
+                                          TextColor="Blue"
+                                          TextDecorations="Underline">
+
+
+                                    </Span>
+
+                                </FormattedString>
+
+                            </Label.FormattedText>
+
+                        </Label>
+                        <Label Text="ve"
+                               TextColor="Black">
+
+
+                        </Label>
+                        <Label>
+                            
+                               <Label.FormattedText>
+                                  <FormattedString>
+                                    <Span Text="4444436"
+                                          TextColor="Blue"
+                                          TextDecorations="Underline">
+
+
+                                    </Span>
+
+                                </FormattedString>
+
+                            </Label.FormattedText>
+
+                        </Label>
+                        <Label Text="numaralı çağrı merkezimizden kredi kartınızı kullanarak"
+                               TextColor="Black">
+
+
+                        </Label>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="  İDO Mobil uygulaması üzerinden kredi kartınızı kullanarak,"
+                                   TextColor="black"
+                                   Margin="3">
+
+
+                            </Label>
+                            <StackLayout>
+                                <Label Text="  İDO terminallerimizdeki gişeler ve acentelerimiz aracılığı ile biletinizi satın alabilirsiniz."
+                                       TextColor="Black"
+                                       Margin="5">
+
+
+                                </Label>
+                                <StackLayout>
+                                    <Label Text="Bilet satış kanalına göre hizmet bedeli alınma sebebi nedir?"
+                                           FontAttributes="Bold"
+                                           TextColor="DarkSlateGray"
+                                           FontSize="Subtitle"
+                                           Margin="5">
+                                
+
+                                    </Label>
+                                    <StackLayout>
+                                        <Label Text="Bilet fiyatlarına dahil olan hizmet bedelimiz, şeffaflık ilkesigereğince yeni satış sistemimizde bilet fiyatlarımızdan ayrıştırılmıştır."
+                                               TextColor="Black"
+                                               Margin="5">
+
+
+                                        </Label>
+                                        <Label Text="Kullanmakta olduğumuz teknolojinin ve sunmakta olduğumuz hizmetin devamlılığını sağlayabilmek adına bilet satın alınırken verilen hizmetlerin karşılığı olarak bilet ücretlerine hizmet bedeli eklenmektedir.Koltuk başına alınan hizmet bedeli ise, satış kanallarının özelliklerine göre farklılık göstermektedir."
+                                               TextColor="Black"
+                                               Margin="5">
+
+
+                                        </Label>
+                                        <StackLayout>
+                                            <Label Text="Dış hat bileti alırken neden tüm yolcuların ad, soyad ve doğum tarihi bilgileri isteniyor?"
+                                                   TextColor="DarkSlateGray"
+                                                   FontSize="Subtitle"
+                                                   FontAttributes="Bold"
+                                                   Margin="5">
+
+
+                                            </Label>
+                                            <StackLayout>
+                                                <Label Text="Denizcilik Müsteşarlığı 'Yolcu Gemilerinin Emniyetine ve Gemilerdeki Yolcuların Kayıt Altına Alınmasına İlişkin Yönetmeliği' kapsamında dış hat bilet alımlarında misafirlerimizin adı, soyadı, cinsiyeti, uyruğu ve doğum tarihi bilgilerinin alınması gereklidir."
+                                                       TextColor="Black"
+                                                       Margin="5">
+
+
+                                                </Label>
+                                                <StackLayout>
+                                                    <Label Text="Dış hat seferine ait biletimi benim yerime başka bir yolcu kullanabilir mi?"
+                                                           TextColor="DarkSlateGray"
+                                                           FontSize="Subtitle"
+                                                           FontAttributes="Bold"
+                                                           Margin="5">
+
+
+                                                    </Label>
+                                                    <StackLayout>
+                                                        <Label Text="İsminize düzenlenen biletiniz başka bir yolcu tarafından kesinlikle kullanılamaz."
+                                                               TextColor="Black"
+                                                               Margin="5">
+
+
+                                                        </Label>
+                                                        <StackLayout>
+                                                            <Label Text="Bilet rezervasyonu yapabilir miyim?"
+                                                                   TextColor="DarkSlateGray"
+                                                                   FontAttributes="Bold"
+                                                                   FontSize="Subtitle"
+                                                                   Margin="5">
+
+
+                                                            </Label>
+                                                            <StackLayout>
+                                                                <Label Text="Bilet satış kanallarımızdan rezervasyon işlemi yapılmamaktadır."
+                                                                       TextColor="Black"
+                                                                       Margin="5">
+
+
+                                                                </Label>
+                                                                <StackLayout>
+                                                                    <Label Text="En fazla kaç kişilik bilet alabilirim?"
+                                                                           TextColor="Gray"
+                                                                           FontAttributes="Bold"
+                                                                           FontSize="Subtitle"
+                                                                           Margin="5">
+
+
+                                                                    </Label>
+                                                                    <StackLayout>
+                                                                        <Label Text="Tek seferde en fazla 10 kişilik bilet alabilirsiniz."
+                                                                               TextColor="Black"
+                                                                               Margin="5">
+
+
+                                                                        </Label>
+                                                                        <StackLayout>
+                                                                            <Label Text="Toplu bilet satın alabilir miyim?"
+                                                                                   TextColor="Gray"
+                                                                                   FontAttributes="Bold"
+                                                                                   FontSize="Subtitle"
+                                                                                   Margin="5">
+
+
+                                                                            </Label>
+
+                                                                        </StackLayout>
+
+                                                                    </StackLayout>
+
+                                                                </StackLayout>
+
+                                                            </StackLayout>
+
+                                                        </StackLayout>
+
+                                                    </StackLayout>
+
+                                                </StackLayout>
+
+                                            </StackLayout>
+
+                                        </StackLayout>
+
+                                    </StackLayout>
+
+
+                                </StackLayout>
+
+                            </StackLayout>
+
+                        </StackLayout>
+
+                     
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </StackLayout>
+            </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
+
+
+        
+   
+

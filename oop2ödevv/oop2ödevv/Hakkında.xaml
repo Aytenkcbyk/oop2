@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="oop2ödevv.Hakkında">
+    <ContentPage.Content>
+        <ScrollView> 
+            <StackLayout>
+                <StackLayout>
+                    <Label Text="Geçmişten Günümüze"
+                           TextColor="Black"
+                           FontAttributes="Bold"
+                           FontSize="Large"
+                           Margin="7">
+                    </Label>
+                </StackLayout>
+                <StackLayout>
+                    <Image Source="ido_timeline_2019.png"/>
+
+                </StackLayout>
+                <StackLayout>
+                     <Label Text=" MİSYON"
+                            FontAttributes="Bold"
+                            FontSize="Large"
+                            TextColor="Black">
+                     </Label>
+                </StackLayout>
+                <StackLayout>
+                     <Label Text="Misafir beklentileri doğrultusunda kendini sürekli geliştiren, yenilikçi ve sürdürülebilir faaliyetleri ile hızlı, emniyetli, konforlu deniz taşımacılığı hizmetleri sunan kuruluş olmak."
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            Margin="13">
+                     </Label>
+                </StackLayout>
+                <StackLayout>
+                     <Label Text=" VİZYON"
+                            FontAttributes="Bold"
+                            FontSize="Large"
+                            TextColor="Black">
+                     </Label>
+                </StackLayout>
+                <StackLayout>
+                     <Label Text="Sürekli artan misafir memnuniyeti, misafir ve araç sayısı ile pazarda büyüyerek değerini artıran bir kuruluş olmak."
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            Margin="11">
+                     </Label>
+                </StackLayout>
+                <StackLayout>
+                     <Label Text="YÖNETİM POLİTİKAMIZ"
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            FontSize="Large"
+                            Margin="11">
+                     </Label>
+                </StackLayout>
+                <StackLayout>
+                     <Label Text="İDO misafirlerinin, çalışanlarının, tedarikçilerinin, toplumun ve ortaklarının beklentilerini dengeli biçimde karşılamayı amaçlayan özünde öğrenme, yenilikçilik ve sürekli iyileştirme olan mükemmellik anlayışını benimsemiştir."
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            Margin="11">
+                     </Label>
+                </StackLayout>
+                <StackLayout>
+                     <Label Text="Bu doğrultuda İDO olarak;"
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            Margin="11">
+                     </Label>
+                </StackLayout>
+                <StackLayout>
+                     <Label Text="Misafir beklentilerini ve geri bildirimlerini izler, misafir memnuniyetini artırmak için süreçlerimizi sürekli iyileştiririz.Katılımcı yönetim anlayışımızla çalışanlarımızın gelişimini ve yöneticilerimizin liderliğini destekler, başarılarını takdir eder tüm potansiyellerini kullanabilecekleri örgütsel iklimi sağlarız.Çalışanlarımız arasında farklılıkları yöneterek fırsat eşitliğini sağlarız.Ortaklarımıza değer sunmak amacıyla risk temelli düşünme yaklaşımıyla her alanda etkinliğimizi ve verimliliğimizi arttırırız.Tedarikçilerimiz ile uzun süreli iş birlikleri ile karşılıklı yarar sağlayan, değer katan, kalıcı ve güvenilir ilişkiler kurarız."
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            Margin="11">
+                     </Label>
+                </StackLayout>
+                <StackLayout>
+                     <Label Text="Tabi olduğumuz ulusal ve uluslararası tüm yasal ve diğer koşullara uyarak faaliyetlerimizi yerine getiririz.İnsan sağlığı ile ilgili riskleri belirleyerek ve etkilerini kontrol altına alarak, sağlık bozulmalarını en aza indiririz.Yaşam döngüsü yaklaşımıyla çevre boyutlarımızı belirleyerek ve etkilerini kontrol altına alarak doğal kaynak tüketimini azaltır, çevre kirliliğini önler ve çevre performansımızı sürekli iyileştiririz.Deniz kültürünü geliştiren sosyal sorumluluk projelerinde yer alırız.Tüm bu çalışmaların gerçekleştirilmesini sürekli izler ve gerekli kaynağı ayırırız."
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            Margin="11">
+                     </Label>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
+

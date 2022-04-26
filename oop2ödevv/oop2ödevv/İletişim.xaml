@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="oop2ödevv.İletişim">
+    <ContentPage.Content>
+      <ScrollView HeightRequest="3000">
+        <StackLayout>
+            <StackLayout>
+                <Label Text="Online İletişim"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       Margin="7">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Her türlü soru, öneri ve görüşlerinizi;"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       Margin="5">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="   info@ido.com.tr"
+                                      TextColor="Blue"
+                                      TextDecorations="Underline">
+
+
+                                </Span>
+                            </FormattedString.Spans>
+
+                        </FormattedString>
+
+
+                    </Label.FormattedText>
+
+
+                </Label>
+                <Label Text="e-mail adresine e-posta ile,"
+                               TextColor="Black"
+                               FontAttributes="Bold">
+
+
+                </Label>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="   Bize yazınız"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline">
+
+
+                            </Span>
+
+                        </FormattedString>
+
+                    </Label.FormattedText>
+
+                </Label>
+                <Label Text="bölümü aracılığyla,"
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="   Engelli yolcularımız için:"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand">
+
+
+                </Label>
+                        
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="engelyok@ido.com.tr"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline">
+
+
+                            </Span>
+
+                        </FormattedString>
+
+                    </Label.FormattedText>
+
+                </Label>
+
+                        
+                <Label Text="e-mail adresine e-posta ile,"
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="   iletişimdeengellerikaldırıyoruz.com.tr"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline">
+
+
+                            </Span>
+
+                        </FormattedString>
+
+                    </Label.FormattedText>
+
+                </Label>
+                <Label Text="de kayıtlı"
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="2124556900"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline">
+
+
+                            </Span>
+
+                        </FormattedString>
+
+                    </Label.FormattedText>
+
+                </Label>
+                <Label Text="telefona sms ile iletebilirsiniz."
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+
+
+            </StackLayout>
+            <StackLayout>
+                <Label Text=" Sea and Mİles üyelik avantajlarından faydalanmak için buraya tıklayarak hemen üye olabilirsiniz"
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout>
+                <Label Text=" Satın aldığınız bilet ile ilgili değişiklik işlemlerini BİLET DEĞİŞİKLİĞİ sayfasını kullanarak,"
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout>
+                <Label Text=" Satın aldığınız bilet ile ilgili iptal işlemlerini BİLET İPTALİ sayfasını kullanarak gerçekleştirebilirsiniz."
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Genel Müdürlük"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="Black"
+                       Margin="7">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout>
+                <Label Text=" Adres:Kennedy Cd. Yenikapı Hızlı Feribot İskelesi Fatih/İstanbul"
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text=" Tel:"
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="(0212) 455 69 00"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline">
+
+
+                            </Span>
+
+                        </FormattedString>
+
+                    </Label.FormattedText>
+
+                </Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Faks"
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="(0212) 517 39 58 "
+                                  TextColor="Blue"
+                                  TextDecorations="Underline">
+
+
+                            </Span>
+
+                        </FormattedString>
+
+                    </Label.FormattedText>
+
+                </Label>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Çağrı Merkezi"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       Margin="7">
+
+
+                </Label>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label>
+                    <Label.FormattedText>
+                         <FormattedString>
+                              <Span Text=" 0 850 222 44 36"
+                                    TextColor="Blue"
+                                    TextDecorations="Underline">
+
+
+                              </Span>
+
+                         </FormattedString>
+
+                    </Label.FormattedText>
+
+                </Label>
+                <Label Text="ve"
+                       TextColor="Black"
+                       FontAttributes="Bold">
+                </Label>
+                <Label>
+                     <Label.FormattedText>
+                          <FormattedString>
+                               <Span Text="444 44 36"
+                                     TextColor="Blue"
+                                     TextDecorations="Underline">
+
+
+                               </Span>
+
+                          </FormattedString>
+
+                     </Label.FormattedText>
+
+                </Label>
+                <Label Text="Çağrı merkezimizden 7/24 hizmet alabilirsiniz."
+                       TextColor="Black"
+                       FontAttributes="Bold">
+
+
+                </Label>
+
+                                                
+
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Çağrı Merkezimizden Sunulan Hizmetler:"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       Margin="7">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Çağrı Merkezimizden kredi kartı ile bilet satın alabilirsiniz, satın aldığınız bir bilette bilet değişiklik ve iade kuralları çerçevesinde değişiklik yapabilir veya biletin iadesini gerçekleştirebilirsiniz."
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       Margin="7">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Sefer tarihlerini veya iptal edilen seferleri öğrenebilirsiniz."
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       Margin="7">
+
+
+                </Label>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Kayıp Eşya"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       Margin="7">
+                </Label>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="İskeleler, deniz otobüsleri, araba vapurları ve hızlı feribotlarda unuttuğunuz eşyalarla ilgili olarak,"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       Margin="7">
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                             <Span Text="0850 222 44 36"
+                                   TextColor="Blue"
+                                   TextDecorations="Underline">
+                             </Span>
+
+                        </FormattedString>
+
+                    </Label.FormattedText>
+
+                </Label>
+
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Çağrı Merkezimiz ile iletişime geçebilirsiniz."
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       Margin="7">
+                </Label>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Tel:"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       Margin="7">
+                </Label>
+                <Label>
+                     <Label.FormattedText>
+                          <FormattedString>
+                               <Span Text="0850 222 44 36"
+                                     TextColor="Blue"
+                                     TextDecorations="Underline">
+                               </Span>
+                          </FormattedString>
+                     </Label.FormattedText>
+                </Label>
+                <Label Text="(5'i tuşlayınız.)"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       Margin="7">
+                </Label>
+            </StackLayout>
+            <StackLayout>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="  444 44 36"
+                                  TextColor="Blue"
+                                  TextDecorations="Underline">
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+      </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
+

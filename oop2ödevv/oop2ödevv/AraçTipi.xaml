@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="oop2ödevv.AraçTipi">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Button x:Name="btnOtomobil"
+                        BackgroundColor="White"
+                        Text="Otomobil(1+4)"
+                        FontAttributes="Bold"
+                        FontSize="Medium"
+                        TextColor="Black"
+                        Clicked="btnOtomobil_Clicked"
+                        
+                        >
+                </Button>
+                <Button x:Name="btnMinibüs"
+                        BackgroundColor="White"
+                        Text="Minibüs"
+                        FontAttributes="Bold"
+                        FontSize="Medium"
+                        TextColor="Black"
+                        Clicked="btnMinibüs_Clicked"
+                        
+                        >
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
